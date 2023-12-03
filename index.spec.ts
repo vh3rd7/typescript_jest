@@ -11,7 +11,7 @@ describe("test group", () => {
     expect(result()).toBeFalsy();
   });
 
-  it("should the helloWorld function return a string 'Hello World!'", () => {
+  fit("should the helloWorld function return a string 'Hello World!'", () => {
     // Arrange
     const expected = "Hello World!";
     // Act
